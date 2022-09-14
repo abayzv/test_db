@@ -1,0 +1,1 @@
+SELECT `kode`, `nama`,SUM(`harga`) as `harga` FROM `product_histories` GROUP BY `nama`
