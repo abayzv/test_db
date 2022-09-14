@@ -20,7 +20,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/challenge1', [Chalenge1::class, 'index']);
+Route::get('/challenge1/5', [Chalenge1::class, 'index']);
 Route::get('/challenge1/4', [Chalenge1::class, 'chalenge1_4']);
 Route::get('/challenge2/2', [Chalenge2::class, 'chalenge2_2']);
 Route::get('/challenge2/3', [Chalenge2::class, 'chalenge2_3']);
